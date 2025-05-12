@@ -9,7 +9,7 @@ export default function Login() {
     e.preventDefault();
   
     try {
-      const response = await fetch("https://backend-1-9tp9.onrender.com/api/loginuser", {
+      const response = await fetch("https://backend-2-2dtz.onrender.com/api/loginuser", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(credentials),
